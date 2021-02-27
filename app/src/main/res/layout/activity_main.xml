@@ -17,8 +17,7 @@
             android:id="@+id/toolbarLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            android:background="@color/purple_700">
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <!-- 上スクロールすると消える、下スクロールすると出てくる-->
             <androidx.appcompat.widget.Toolbar
@@ -26,7 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
-                android:background="@color/purple_700"/>
+                android:background="@color/purple_500"/>
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
